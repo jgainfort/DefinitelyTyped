@@ -848,14 +848,14 @@ declare namespace Hls {
     }
 
     interface manifestLoadedData {
-        levels: number[];
+        levels: Level[];
         audioTracks: number[];
         url: string;
         stats: Stats;
     }
 
     interface manifestParsedData {
-        levels: number[];
+        levels: Level[];
         firstLevel: number;
     }
 
